@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevHub</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f6f8fa;
+            color: #24292f;
+        }
+
+        /* Navbar */
+        nav {
+            height: 64px;
+            background-color: #24292f;
+            display: flex;
+            align-items: center;
+            padding: 0 40px;
+            gap: 30px;
+        }
+
+        .logo {
+            color: white;
+            font-size: 22px;
+            font-weight: bold;
+            margin-right: 20px;
+        }
+
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 15px;
+        }
+
+        nav a:hover {
+            color: #8b949e;
+        }
+
+        /* Main content */
+        main {
+            max-width: 900px;
+            margin: 50px auto;
+            padding: 0 20px;
+        }
+
+        .hero {
+            background: white;
+            padding: 40px;
+            border: 1px solid #d0d7de;
+            border-radius: 8px;
+        }
+
+        h1 {
+            margin-bottom: 15px;
+        }
+
+        p {
+            color: #57606a;
+            line-height: 1.6;
+        }
+
+        .repositories {
+            margin-top: 30px;
+        }
+
+        .repo {
+            background: white;
+            border: 1px solid #d0d7de;
+            border-radius: 8px;
+            padding: 20px;
+            margin-top: 15px;
+        }
+
+        .repo h3 {
+            color: #0969da;
+            margin-bottom: 8px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <div class="logo">DevHub</div>
+
+        <a href="index.html">Home</a>
+        <a href="#">Repositories</a>
+        <a href="about.html">About</a>
+    </nav>
+
+    <main>
+
+        <section class="hero">
+            <h1>Welcome to DevHub</h1>
+            <p>
+                A simple GitHub-inspired website for developers
+                to showcase their projects and repositories.
+            </p>
+        </section>
+
+        <section class="repositories">
+            <h2>Popular Repositories</h2>
+
+            <div class="repo">
+                <h3>portfolio-website</h3>
+                <p>A personal portfolio website built using HTML and CSS.</p>
+            </div>
+
+            <div class="repo">
+                <h3>coding-projects</h3>
+                <p>A collection of programming projects and experiments.</p>
+            </div>
+
+            <div class="repo">
+                <h3>javascript-practice</h3>
+                <p>Small JavaScript projects for learning and practice.</p>
+            </div>
+
+        </section>
+
+    </main>
+
+</body>
+</html>
